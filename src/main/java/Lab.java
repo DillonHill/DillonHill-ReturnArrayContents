@@ -30,6 +30,12 @@ public class Lab {
      * @return a string representation of all values of nums, with the values separated by spaces.
      */
     public String arrayToString(int[] nums){
-        return "";
+        String retval = "";
+
+        if(int i = 0; i < nums.Length; i++){
+            retval = retval + nums[i] + " ";
+        }
+
+        return retval;
     }
 }
