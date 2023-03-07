@@ -32,7 +32,7 @@ public class Lab {
     public String arrayToString(int[] nums){
         String retval = "";
 
-        if(int i = 0; i < nums.Length; i++){
+        for(int i = 0; i < nums.length; i++){
             retval = retval + nums[i] + " ";
         }
 
